@@ -1,0 +1,52 @@
+{
+  "Documents": {
+    "extensions": [".pdf", ".doc", ".docx", ".txt", ".xlsx", ".xls", ".ppt", ".pptx", ".odt", ".rtf"],
+    "mime_types": ["application/pdf", "application/msword", "application/vnd.openxmlformats-officedocument"],
+    "icon": "📄"
+  },
+  "Images": {
+    "extensions": [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".svg", ".webp", ".tiff", ".ico"],
+    "mime_types": ["image/jpeg", "image/png", "image/gif", "image/bmp", "image/svg+xml", "image/webp"],
+    "icon": "🖼️"
+  },
+  "Videos": {
+    "extensions": [".mp4", ".avi", ".mkv", ".mov", ".flv", ".wmv", ".webm", ".m4v", ".3gp"],
+    "mime_types": ["video/mp4", "video/x-msvideo", "video/x-matroska", "video/quicktime"],
+    "icon": "🎬"
+  },
+  "Audio": {
+    "extensions": [".mp3", ".wav", ".flac", ".aac", ".ogg", ".m4a", ".wma", ".aiff"],
+    "mime_types": ["audio/mpeg", "audio/wav", "audio/flac", "audio/aac"],
+    "icon": "🎵"
+  },
+  "Archives": {
+    "extensions": [".zip", ".rar", ".7z", ".tar", ".gz", ".bz2", ".iso", ".dmg"],
+    "mime_types": ["application/zip", "application/x-rar-compressed", "application/x-7z-compressed"],
+    "icon": "📦"
+  },
+  "Code": {
+    "extensions": [".py", ".js", ".ts", ".java", ".cpp", ".c", ".h", ".cs", ".php", ".rb", ".go", ".rs", ".sql", ".html", ".css", ".json", ".xml", ".yaml", ".yml"],
+    "mime_types": ["text/plain", "application/json", "application/xml"],
+    "icon": "💻"
+  },
+  "Executables": {
+    "extensions": [".exe", ".msi", ".app", ".dmg", ".deb", ".rpm", ".sh", ".bat", ".cmd"],
+    "mime_types": ["application/octet-stream", "application/x-msdownload"],
+    "icon": "⚙️"
+  },
+  "Fonts": {
+    "extensions": [".ttf", ".otf", ".woff", ".woff2", ".eot"],
+    "mime_types": ["font/ttf", "font/otf", "font/woff", "font/woff2"],
+    "icon": "🔤"
+  },
+  "Database": {
+    "extensions": [".db", ".sqlite", ".sqlite3", ".mdb", ".accdb", ".sql"],
+    "mime_types": ["application/x-sqlite3"],
+    "icon": "🗄️"
+  },
+  "Other": {
+    "extensions": [],
+    "mime_types": [],
+    "icon": "📁"
+  }
+}

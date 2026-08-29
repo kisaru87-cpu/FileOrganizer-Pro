@@ -1,0 +1,40 @@
+{
+  "general": {
+    "theme": "dark",
+    "language": "en",
+    "auto_organize": false,
+    "safe_mode": true
+  },
+  "organization": {
+    "create_subfolders": true,
+    "overwrite_existing": false,
+    "organize_by_date": false,
+    "date_format": "%Y-%m-%d",
+    "move_instead_of_copy": true
+  },
+  "corruption_detection": {
+    "enabled": true,
+    "scan_on_startup": false,
+    "check_file_headers": true,
+    "verify_checksums": true,
+    "max_file_size_check": 5368709120,
+    "timeout_seconds": 30
+  },
+  "monitoring": {
+    "enabled": false,
+    "watch_folders": [],
+    "recursive_watch": true,
+    "debounce_seconds": 2
+  },
+  "logging": {
+    "level": "INFO",
+    "log_file": "logs/fileorganizer.log",
+    "max_log_size_mb": 10,
+    "backup_count": 5
+  },
+  "performance": {
+    "thread_count": 4,
+    "batch_size": 100,
+    "scan_interval_seconds": 5
+  }
+}
