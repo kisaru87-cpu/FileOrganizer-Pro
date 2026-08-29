@@ -9,7 +9,7 @@ from PyQt6.QtWidgets import (
     QDialog
 )
 from PyQt6.QtCore import Qt, QThread, pyqtSignal, QSize
-from PyQt6.QtGui import QIcon
+from PyQt6.QtGui import QIcon, QColor
 from src.file_scanner import FileScanner
 from src.corruption_detector import CorruptionDetector
 from src.organizer import FileOrganizer
@@ -390,9 +390,9 @@ class FileOrganizerApp(QMainWindow):
             self.mirror_table.setItem(row, 1, QTableWidgetItem(op.get('destination', 'N/A')))
             self.mirror_table.setItem(row, 2, QTableWidgetItem(op.get('category', 'N/A')))
             status = op.get('status', 'unknown').upper()
-            status_color = '#4CAF50' if status == 'SUCCESS' else '#F44336'
+            status_color = QColor('#4CAF50') if status == 'SUCCESS' else QColor('#F44336')
             item = QTableWidgetItem(status)
-            item.setBackground(PyQt6.QtGui.QColor(status_color))
+            item.setBackground(status_color)
             self.mirror_table.setItem(row, 3, item)
         
         msg = f"Mirror Complete!\n\n" \
